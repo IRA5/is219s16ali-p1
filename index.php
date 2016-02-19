@@ -1,471 +1,342 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html lang=en>
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Cardio: Free One Page Template by Luka Cvetinovic</title>
-	<meta name="description" content="Cardio is a free one page template made exclusively for Codrops by Luka Cvetinovic" />
-	<meta name="keywords" content="html template, css, free, one page, gym, fitness, web design" />
-	<meta name="author" content="Luka Cvetinovic for Codrops" />
-	<!-- Favicons (created with http://realfavicongenerator.net/)-->
-	<link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
-	<link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="img/favicons/manifest.json">
-	<link rel="shortcut icon" href="img/favicons/favicon.ico">
-	<meta name="msapplication-TileColor" content="#00a8ff">
-	<meta name="msapplication-config" content="img/favicons/browserconfig.xml">
-	<meta name="theme-color" content="#ffffff">
-	<!-- Normalize -->
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<!-- Bootstrap -->
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<!-- Owl -->
-	<link rel="stylesheet" type="text/css" href="css/owl.css">
-	<!-- Animate.css -->
-	<link rel="stylesheet" type="text/css" href="css/animate.css">
-	<!-- Font Awesome -->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.1.0/css/font-awesome.min.css">
-	<!-- Elegant Icons -->
-	<link rel="stylesheet" type="text/css" href="fonts/eleganticons/et-icons.css">
-	<!-- Main style -->
-	<link rel="stylesheet" type="text/css" href="css/cardio.css">
+<meta charset="utf-8" />
+<meta name="verify-v1" content="91yIG+EaOdwKuPX+R9ChHEWVXJ6wdQsq0gqD1c1sbaY="/>
+<title>David Shapiro, Resume- Web Developer</title>
+<style type="text/css">
+body{font-family:Geneva, Arial, Helvetica, sans-serif;font-size:12px;font-weight:normal;color:#000000;text-align:center;margin:0;padding:0;line-height:1.5em;}
+header, section, article{display:block;}
+header{text-align:center;position:relative;z-index:1;}
+section{margin:20px 0 10px;padding:0;}
+p{margin-top:0;padding:0;}
+ul, ol{margin:10px 0 0;padding:0;}
+h1{margin:5px;font-size:2em;font-weight:bold;}
+h2{font-size:1.4em;font-style:italic;font-weight:bold;margin:5px 0;}
+h5{margin:20px 0 10px;font-size:1.2em;font-weight:bold;}
+a, a:link, a:visited{border:medium none;text-decoration:none;color:#009;cursor:pointer;}
+#resumecontainer{background-color:#F6F6F6;text-align:left;padding:20px;margin:20px auto;min-width:300px;max-width:600px;position:relative;}
+header p{margin:5px;}
+#links img{border:0 none;}
+.skills{margin:10px 10px;}
+.project{margin:10px 0 20px 10px;}
+section > p, section > article{margin:5px 0 0 10px;}
+#skills_section{position:relative;z-index:0;}
+#body_popup{position:absolute;left:0;top:0;z-index:1000;display:none;background-color:#FFFFFF;border:1px solid #000;padding:20px;min-width:300px;max-width:440px;text-align:left;}
+a:hover{text-decoration:none;color:#03F;}
+.close{display:block;float:right;}
+li{margin-left:5px;list-style-position:inside;list-style-type:circle;padding-left:0}
+ol > li{list-style-position:inside;list-style-type:decimal;margin-bottom:10px;margin-left:0;}
+#links{position:absolute;top:0;right:0;width:60px;}
+.formats{display:inline-block;height:16px;width:16px;background:url(img/links.png) no-repeat;}
+#doc{background-position:0 0;}
+#txt{background-position:0 -52px;}
+#pdf{background-position:0 -26px;}
+.indent{margin-left:20px;}
+@media only screen and (max-device-width: 480px) {
+body{font-size:18px;}
+#resumecontainer{padding:20px;margin:20px;max-width:1000px;}	
+#body_popup{max-width:1000px;}
+}
+</style>
+<script type="text/javascript">
+(function(){
+  function loadScript(url, callback){  //lifted from Nick Zakas
+    var script = document.createElement("script")
+    script.type = "text/javascript";
+    if (script.readyState){  //IE
+      script.onreadystatechange = function(){
+        if (script.readyState == "loaded" ||
+          script.readyState == "complete"){
+          script.onreadystatechange = null;
+          callback();
+        }
+      };
+    }else{  //Others
+      script.onload = function(){
+        callback();
+      };
+    }
+    script.src = url;
+    document.body.appendChild(script);
+  }
+  //libraries to load after document.load event
+  function afterLoad() {
+	loadScript("http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js", afterJQLoad);
+	loadScript("http://www.google-analytics.com/ga.js", googleCrap);
+  }
+  //stuff to do after jQuery is loaded
+  function afterJQLoad(){
+    var details = '',
+      coords = {left:'0px', top:'0px'},
+      close = function(){
+        details = '';
+        $("#body_popup > div.temp").remove();
+	    $("#body_popup").css({left:'0px', top:'0px'}).hide();
+      };
+    $(".details, .notice").click(function(e){  
+      var $target = $(this),
+	    coords = {left:'10px', top:e.pageY + 'px'};
+	  if(details !== ''){ 
+	    close();
+	  }
+	  details = $(this.rel).html();
+	  var id = ($target.hasClass("details")) ? "#skills_popup" : "#notice_popup";
+	  $("#body_popup").append(details).css(coords).show();
+    });
+    $(".close").click(function(){
+	  close();
+    });
+    $(".external").on('click', function(){
+      var url = this.rel;
+      window.open(url);
+      return;
+    }); 
+  }
+  function googleCrap(){
+    try {
+      var pageTracker = _gat._getTracker("UA-8130141-1");
+      pageTracker._trackPageview();
+    }catch(err){}  
+  }
+  
+  if (window.addEventListener){
+    window.addEventListener("load", afterLoad, false);
+  }else if (window.attachEvent){
+    window.attachEvent("onload", afterLoad);
+  } else {
+    window.onload = afterLoad;
+  }
+})();
+</script>
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
 </head>
 
 <body>
-	<div class="preloader">
-		<img src="img/loader.gif" alt="Preloader image">
-	</div>
-	<nav class="navbar">
-		<div class="container">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#"><img src="img/logo.png" data-active-url="img/logo-active.png" alt=""></a>
-			</div>
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav navbar-right main-nav">
-					<li><a href="#intro">Intro</a></li>
-					<li><a href="#services">Services</a></li>
-					<li><a href="#team">Team</a></li>
-					<li><a href="#pricing">Pricing</a></li>
-					<li><a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-blue">Sign Up</a></li>
-				</ul>
-			</div>
-			<!-- /.navbar-collapse -->
-		</div>
-		<!-- /.container-fluid -->
-	</nav>
-	<header id="intro">
-		<div class="container">
-			<div class="table">
-				<div class="header-text">
-					<div class="row">
-						<div class="col-md-12 text-center">
-							<h3 class="light white">Take care of your body.</h3>
-							<h1 class="white typed">It's the only place you have to live.</h1>
-							<span class="typed-cursor">|</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-	<section>
-		<div class="cut cut-top"></div>
-		<div class="container">
-			<div class="row intro-tables">
-				<div class="col-md-4">
-					<div class="intro-table intro-table-first">
-						<h5 class="white heading">Today's Schedule</h5>
-						<div class="owl-carousel owl-schedule bottom">
-							<div class="item">
-								<div class="schedule-row row">
-									<div class="col-xs-6">
-										<h5 class="regular white">Early Exercise</h5>
-									</div>
-									<div class="col-xs-6 text-right">
-										<h5 class="white">8:30 - 10:00</h5>
-									</div>
-								</div>
-								<div class="schedule-row row">
-									<div class="col-xs-6">
-										<h5 class="regular white">Muscle Building</h5>
-									</div>
-									<div class="col-xs-6 text-right">
-										<h5 class="white">8:30 - 10:00</h5>
-									</div>
-								</div>
-								<div class="schedule-row row">
-									<div class="col-xs-6">
-										<h5 class="regular white">Cardio</h5>
-									</div>
-									<div class="col-xs-6 text-right">
-										<h5 class="white">8:30 - 10:00</h5>
-									</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="schedule-row row">
-									<div class="col-xs-6">
-										<h5 class="regular white">Early Exercise</h5>
-									</div>
-									<div class="col-xs-6 text-right">
-										<h5 class="white">8:30 - 10:00</h5>
-									</div>
-								</div>
-								<div class="schedule-row row">
-									<div class="col-xs-6">
-										<h5 class="regular white">Muscle Building</h5>
-									</div>
-									<div class="col-xs-6 text-right">
-										<h5 class="white">8:30 - 10:00</h5>
-									</div>
-								</div>
-								<div class="schedule-row row">
-									<div class="col-xs-6">
-										<h5 class="regular white">Cardio</h5>
-									</div>
-									<div class="col-xs-6 text-right">
-										<h5 class="white">8:30 - 10:00</h5>
-									</div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="schedule-row row">
-									<div class="col-xs-6">
-										<h5 class="regular white">Early Exercise</h5>
-									</div>
-									<div class="col-xs-6 text-right">
-										<h5 class="white">8:30 - 10:00</h5>
-									</div>
-								</div>
-								<div class="schedule-row row">
-									<div class="col-xs-6">
-										<h5 class="regular white">Muscle Building</h5>
-									</div>
-									<div class="col-xs-6 text-right">
-										<h5 class="white">8:30 - 10:00</h5>
-									</div>
-								</div>
-								<div class="schedule-row row">
-									<div class="col-xs-6">
-										<h5 class="regular white">Cardio</h5>
-									</div>
-									<div class="col-xs-6 text-right">
-										<h5 class="white">8:30 - 10:00</h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="intro-table intro-table-hover">
-						<h5 class="white heading hide-hover">Premium Membership</h5>
-						<div class="bottom">
-							<h4 class="white heading small-heading no-margin regular">Register Today</h4>
-							<h4 class="white heading small-pt">20% Discount</h4>
-							<a href="#" class="btn btn-white-fill expand">Register</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="intro-table intro-table-third">
-						<h5 class="white heading">Happy Clients</h5>
-						<div class="owl-testimonials bottom">
-							<div class="item">
-								<h4 class="white heading content">I couldn't be more happy with the results!</h4>
-								<h5 class="white heading light author">Adam Jordan</h5>
-							</div>
-							<div class="item">
-								<h4 class="white heading content">I can't believe how much better I feel!</h4>
-								<h5 class="white heading light author">Greg Pardon</h5>
-							</div>
-							<div class="item">
-								<h4 class="white heading content">Incredible transformation and I feel so healthy!</h4>
-								<h5 class="white heading light author">Christina Goldman</h5>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section id="services" class="section section-padded">
-		<div class="container">
-			<div class="row text-center title">
-				<h2>Services</h2>
-				<h4 class="light muted">Achieve the best results with our wide variety of training options!</h4>
-			</div>
-			<div class="row services">
-				<div class="col-md-4">
-					<div class="service">
-						<div class="icon-holder">
-							<img src="img/icons/heart-blue.png" alt="" class="icon">
-						</div>
-						<h4 class="heading">Cardio Training</h4>
-						<p class="description">A elementum ligula lacus ac quam ultrices a scelerisque praesent vel suspendisse scelerisque a aenean hac montes.</p>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="service">
-						<div class="icon-holder">
-							<img src="img/icons/guru-blue.png" alt="" class="icon">
-						</div>
-						<h4 class="heading">Yoga Pilates</h4>
-						<p class="description">A elementum ligula lacus ac quam ultrices a scelerisque praesent vel suspendisse scelerisque a aenean hac montes.</p>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="service">
-						<div class="icon-holder">
-							<img src="img/icons/weight-blue.png" alt="" class="icon">
-						</div>
-						<h4 class="heading">Power Training</h4>
-						<p class="description">A elementum ligula lacus ac quam ultrices a scelerisque praesent vel suspendisse scelerisque a aenean hac montes.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="cut cut-bottom"></div>
-	</section>
-	<section id="team" class="section gray-bg">
-		<div class="container">
-			<div class="row title text-center">
-				<h2 class="margin-top">Team</h2>
-				<h4 class="light muted">We're a dream team!</h4>
-			</div>
-			<div class="row">
-				<div class="col-md-4">
-					<div class="team text-center">
-						<div class="cover" style="background:url('img/team/team-cover1.jpg'); background-size:cover;">
-							<div class="overlay text-center">
-								<h3 class="white">$69.00</h3>
-								<h5 class="light light-white">1 - 5 sessions / month</h5>
-							</div>
-						</div>
-						<img src="img/team/team3.jpg" alt="Team Image" class="avatar">
-						<div class="title">
-							<h4>Ben Adamson</h4>
-							<h5 class="muted regular">Fitness Instructor</h5>
-						</div>
-						<button data-toggle="modal" data-target="#modal1" class="btn btn-blue-fill">Sign Up Now</button>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="team text-center">
-						<div class="cover" style="background:url('img/team/team-cover2.jpg'); background-size:cover;">
-							<div class="overlay text-center">
-								<h3 class="white">$69.00</h3>
-								<h5 class="light light-white">1 - 5 sessions / month</h5>
-							</div>
-						</div>
-						<img src="img/team/team1.jpg" alt="Team Image" class="avatar">
-						<div class="title">
-							<h4>Eva Williams</h4>
-							<h5 class="muted regular">Personal Trainer</h5>
-						</div>
-						<a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-blue-fill ripple">Sign Up Now</a>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="team text-center">
-						<div class="cover" style="background:url('img/team/team-cover3.jpg'); background-size:cover;">
-							<div class="overlay text-center">
-								<h3 class="white">$69.00</h3>
-								<h5 class="light light-white">1 - 5 sessions / month</h5>
-							</div>
-						</div>
-						<img src="img/team/team2.jpg" alt="Team Image" class="avatar">
-						<div class="title">
-							<h4>John Phillips</h4>
-							<h5 class="muted regular">Personal Trainer</h5>
-						</div>
-						<a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-blue-fill ripple">Sign Up Now</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section id="pricing" class="section">
-		<div class="container">
-			<div class="row title text-center">
-				<h2 class="margin-top white">Pricing</h2>
-				<h4 class="light white">Choose your favorite pricing plan and sign up today!</h4>
-			</div>
-			<div class="row no-margin">
-				<div class="col-md-7 no-padding col-md-offset-5 pricings text-center">
-					<div class="pricing">
-						<div class="box-main active" data-img="img/pricing1.jpg">
-							<h4 class="white">Yoga Pilates</h4>
-							<h4 class="white regular light">$850.00 <span class="small-font">/ year</span></h4>
-							<a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-white-fill">Sign Up Now</a>
-							<i class="info-icon icon_question"></i>
-						</div>
-						<div class="box-second active">
-							<ul class="white-list text-left">
-								<li>One Personal Trainer</li>
-								<li>Big gym space for training</li>
-								<li>Free tools &amp; props</li>
-								<li>Free locker</li>
-								<li>Free before / after shower</li>
-							</ul>
-						</div>
-					</div>
-					<div class="pricing">
-						<div class="box-main" data-img="img/pricing2.jpg">
-							<h4 class="white">Cardio Training</h4>
-							<h4 class="white regular light">$100.00 <span class="small-font">/ year</span></h4>
-							<a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-white-fill">Sign Up Now</a>
-							<i class="info-icon icon_question"></i>
-						</div>
-						<div class="box-second">
-							<ul class="white-list text-left">
-								<li>One Personal Trainer</li>
-								<li>Big gym space for training</li>
-								<li>Free tools &amp; props</li>
-								<li>Free locker</li>
-								<li>Free before / after shower</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="section section-padded blue-bg">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<div class="owl-twitter owl-carousel">
-						<div class="item text-center">
-							<i class="icon fa fa-twitter"></i>
-							<h4 class="white light">To enjoy the glow of good health, you must exercise.</h4>
-							<h4 class="light-white light">#health #training #exercise</h4>
-						</div>
-						<div class="item text-center">
-							<i class="icon fa fa-twitter"></i>
-							<h4 class="white light">To enjoy the glow of good health, you must exercise.</h4>
-							<h4 class="light-white light">#health #training #exercise</h4>
-						</div>
-						<div class="item text-center">
-							<i class="icon fa fa-twitter"></i>
-							<h4 class="white light">To enjoy the glow of good health, you must exercise.</h4>
-							<h4 class="light-white light">#health #training #exercise</h4>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content modal-popup">
-				<a href="#" class="close-link"><i class="icon_close_alt2"></i></a>
-				<h3 class="white">Sign Up</h3>
-				<form action="" class="popup-form">
-					<input type="text" class="form-control form-white" placeholder="Full Name">
-					<input type="text" class="form-control form-white" placeholder="Email Address">
-					<div class="dropdown">
-						<button id="dLabel" class="form-control form-white dropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Pricing Plan
-						</button>
-						<ul class="dropdown-menu animated fadeIn" role="menu" aria-labelledby="dLabel">
-							<li class="animated lightSpeedIn"><a href="#">1 month membership ($150)</a></li>
-							<li class="animated lightSpeedIn"><a href="#">3 month membership ($350)</a></li>
-							<li class="animated lightSpeedIn"><a href="#">1 year membership ($1000)</a></li>
-							<li class="animated lightSpeedIn"><a href="#">Free trial class</a></li>
-						</ul>
-					</div>
-					<div class="checkbox-holder text-left">
-						<div class="checkbox">
-							<input type="checkbox" value="None" id="squaredOne" name="check" />
-							<label for="squaredOne"><span>I Agree to the <strong>Terms &amp; Conditions</strong></span></label>
-						</div>
-					</div>
-					<button type="submit" class="btn btn-submit">Submit</button>
-				</form>
-			</div>
-		</div>
-	</div>
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 text-center-mobile">
-					<h3 class="white">Reserve a Free Trial Class!</h3>
-					<h5 class="light regular light-white">Shape your body and improve your health.</h5>
-					<a href="#" class="btn btn-blue ripple trial-button">Start Free Trial</a>
-				</div>
-				<div class="col-sm-6 text-center-mobile">
-					<h3 class="white">Opening Hours <span class="open-blink"></span></h3>
-					<div class="row opening-hours">
-						<div class="col-sm-6 text-center-mobile">
-							<h5 class="light-white light">Mon - Fri</h5>
-							<h3 class="regular white">9:00 - 22:00</h3>
-						</div>
-						<div class="col-sm-6 text-center-mobile">
-							<h5 class="light-white light">Sat - Sun</h5>
-							<h3 class="regular white">10:00 - 18:00</h3>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row bottom-footer text-center-mobile">
-				<div class="col-sm-8">
-					<p>&copy; 2015 All Rights Reserved. Powered by <a href="http://www.phir.co/">PHIr</a> exclusively for <a href="http://tympanus.net/codrops/">Codrops</a></p>
-				</div>
-				<div class="col-sm-4 text-right text-center-mobile">
-					<ul class="social-footer">
-						<li><a href="http://www.facebook.com/pages/Codrops/159107397912"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="http://www.twitter.com/codrops"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="https://plus.google.com/101095823814290637419"><i class="fa fa-google-plus"></i></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!-- Holder for mobile navigation -->
-	<div class="mobile-nav">
-		<ul>
-		</ul>
-		<a href="#" class="close-link"><i class="arrow_up"></i></a>
-	</div>
-	<!-- Scripts -->
-	<script src="js/jquery-1.11.1.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/wow.min.js"></script>
-	<script src="js/typewriter.js"></script>
-	<script src="js/jquery.onepagenav.js"></script>
-	<script src="js/main.js"></script>
+
+<div id="links">
+  <a class="formats" id="pdf" href="dshapiro.pdf"></a>
+  <!--<a class="formats" id="doc" href="dshapiro.doc"></a>-->
+  <!--<a class="formats" id="txt" href="dshapiro.txt"></a>-->
+</div>
+
+<div id="resumecontainer">
+
+<header>
+<h1>David Shapiro</h1>
+<p><a href="mailto:resume@david-shapiro.net">resume@david-shapiro.net</a></p>
+<p><a href="http://www.linkedin.com/in/dgshapiro">http://www.linkedin.com/in/dgshapiro</a></p>
+<p><a href="https://github.com/dgs700/">https://github.com/dgs700</a></p>
+
+<p><strong>Web Developer Resume &amp; Portfolio</strong></p>
+<p><em><a rel="#notice" class="proj_link notice">Notice to 3rd Party Recruiters (Please Read)</a></em></p>
+</header>
+
+<section>
+<h2>Objective</h2>
+<p>Seeking challenging opportunities in <em><strong>front-end web development / UI architecture</strong></em> within a 25 statute mile radius of Mountain View, CA 94043.</p>
+</section>
+
+<section>
+<h2>Summary</h2>
+<p>in front &amp; backend web development, database design, integration, 
+implementation, software development, network and 
+systems administration, project and account management. Significant experience in SAAS, and Non-profit sectors.</p>
+</section>
+
+<section>
+<h2>Skills</h2>
+<article class="skills">
+<strong>Expert / Advanced</strong>
+<p>OO Javascript, jQuery, Backbone.js, Underscore.js, Require.js, xhtml, AJAX / JSON, CSS 2.1/3, Client debugging / optimization tools and techniques- Firebug, YSlow, JSLint, JSMin, Cake PHP, Dreamweaver, Aptana IDE, Netbeans IDE, MVC design, semantic markup, Document Object Model <a href="https://gist.github.com/2396079" target="_blank">(code sample)</a></p>
+</article>
+
+<article class="skills">
+<strong>Competent</strong>
+<p>REST, Git, Cross browser compatability, Dojo, Object Oriented PHP, Drupal CMS, MySQL, Java, J2EE, JPA, Struts 2, Webwork, Spring, Hibernate, Tomcat, Apache, SSL, JSP, A12Y, I18N, Photoshop, Acrobat, Zend Server, Linux / Unix shell, Windows, HTML 5 <a href="https://gist.github.com/2372741" target="_blank">(code sample)</a></p>
+</article>
+
+<article class="skills"><strong>Moderate Exposure</strong> <p>SCSS, Zend Framework, social media platforms &amp; integration, Web Services (WSDL/SOAP), Ant, 
+ JSF, JBOSS, Glassfish, EJB, JMS, Velocity, Perl, Subversion SVN, CVS, Eclipse IDE</p>
+</article> 
+</section>
+
+<section id="skills_section">
+<h2>Clients &amp; Project Portfolio</h2>
+
+<li>Web Application development and maintenance- presentation layer and client code</li>
+<li>Javascript, Java, JSP, Struts, CVS</li>
+</ul>
+</article>
+
+<article class="project">
+  <a class="proj_link external" rel="http://www.rebuildingtogetherpeninsula.org">
+  <strong>Rebuilding Together Peninsula</strong></a> 
+  <strong class="indent">Web Developer - Pro Bono</strong>
+  <em class="indent">2005 - 2007</em>
+<ul>
+<li>Implemented complete site redesign</li>
+<li>HTML, CSS, JavaScript, PHP</li>
+</ul>
+</article>
+
+<article class="project">
+  <a class="proj_link external" rel="http://www.the-river.org">
+  <strong>The River Church Community</strong></a> 
+  <strong class="indent">Web Developer - Pro Bono</strong>
+  <em class="indent">2002 - 2003</em>
+<ul>
+<li>Web forms and custom content management</li>
+<li>HTML, CSS, Java, JSP, JDBC</li>
+</ul>
+</article>
+</section>
+
+<section id="clients">
+<h2>Selected Corporate Client List <em style="font-size:12px;font-weight:normal;">(1996 - 2002)</em></h2>
+
+<p><a class="proj_link external" rel="http://www.netsuite.com"><strong>Netsuite, Inc.</strong></a>
+<span class="indent">Senior Webserver Administrator</span></p>
+
+<p><a class="proj_link external" rel="http://www.narus.com"><strong>Narus, Inc.</strong></a>
+<span class="indent">Senior System &amp; Network Administrator</span></p>
+
+<p><a class="proj_link external" rel="http://www.quova.com"><strong>Quova, Inc.</strong></a>
+<span class="indent">Senior System &amp; Network Administrator</span></p>
+
+<p><a class="proj_link external" rel="http://www.cyberstars.com/psvc/enter.html"><strong>Philips Silicon Valley Center</strong></a>
+<span class="indent">Network Engineer</span></p>
+
+<p><a class="proj_link external" rel="http://www.sun.com"><strong>Sun Microsystems (Oracle)</strong></a>
+<span class="indent">System Administrator</span></p>
+
+<p><a class="proj_link external" rel="http://www.home.agilent.com"><strong>Agilent Technologies</strong></a>
+<span class="indent">Web Developer</span></p>
+
+<p><a class="proj_link external" rel="http://netscape.aol.com/"><strong>Netscape Communications (AOL)</strong></a>
+<span class="indent">System Administrator</span></p>
+
+<p><a class="proj_link external" rel="http://go.com/"><strong>Infoseek (Go.com)</strong></a>
+<span class="indent">Software Developer</span></p>
+
+<p><a class="proj_link external" rel="http://www-306.ibm.com/software/data/informix/"><strong>Informix Software (IBM)</strong></a>
+<span class="indent">System Administrator</span></p>
+</section>
+
+<section>
+<h2>Education</h2>
+<p><strong>William. L. Dickinson HS</strong>, ComputerScience</p>
+<p><strong>Hudson County Community College College</strong>, Computer Science, 3.0 GPA</p>
+
+</section>
+<br/><br/>
+<!--<p>
+    <a href="http://validator.w3.org/check?uri=referer" style="border-bottom:none;"><img
+        src="http://www.w3.org/Icons/valid-xhtml10-blue"
+        alt="Valid XHTML 1.0 Strict" height="31" width="88" style="border:none;" /></a>
+<a href="http://jigsaw.w3.org/css-validator/check?uri=referer" style="border-bottom:none;">
+    <img style="border:none;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+</a>
+</p>
+-->
+<section style="margin-top:100px;">
+<h2>Project Details</h2>
+
+<article id="bgc" class="skills">
+<div class="temp">
+Organizational needs<br/><br/>
+Transform design mockups into client side code that is cross-browser compatible, and adheres to Web 2.0 standards and industry best practices.  Implement ease-of-use client behaviors and navigation with unobtrusive Javascript and jQuery.  Provide custom content management and information capture for fund-raising events, donors, members, and community. Ensure that all code is I18N ready for plans to add Spanish and Chinese languages. Ensure that all forms and data are secure with SSL and data sanitization.
+<br/><br/>
+Implementations
+</p>
+<ul>
+<li>Cake PHP framework configuration and custom extensions for MVC server-side logic</li>
+<li>MySQL configuration as attached data-store for above</li>
+<li>jQuery implementation for DHTML, AJAX form submits, validation, and image manipulation</li>
+<li>Internationalization (I18N), SSL</li>
+</ul>
+</div>
+</article>
+
+<article id="mcc" class="skills">
+<div class="temp">
+<h5><a class="proj_link external" rel="http://www.conservationcorpsnorthbay.org/">Conservation Corps North Bay</a></h5>
+<p>
+Organizational needs<br/><br/>  
+Site redesign to project a more professional appearance to the donor community. Interactive capabilities for applicants, volunteers, donors, and community members to submit information electronically and reduce paper usage.  Content management features to allow non-technical staff to add, delete, and update dynamic content. Multi-language capability for Spanish speaking corps members.
+<br/><br/>
+Implementations:
+</p>
+<ul>
+<li>Extensive Drupal CMS customization and configuration to meet rapidly changing needs</li>
+<li>Complete custom Drupal theming to maintain current design</li>
+<li>Interoperability with legacy java based features<br/><br/></li>
+
+<li>Version 1.0 (released March, 2009)</li>
+<li>Custom CMS, data capture, and administrative application business logic implemented with Java / Struts 2 framework with Spring</li>
+<li>Model layer implemented with Hibernate / JPA, Spring / JTA, and MySQL for O/R mapping</li>
+<li>Model layer architected to utilize DAO, DTO, Entity Session design patterns</li>
+<li>View layer components include JSP, Freemarker, OGNL, Struts Tags</li>
+<li>View layer extensions include custom tag library to support Dojo 1.0+</li>
+<li>Client code implemented with XHTML, CSS, Javascript</li>
+<li>Extensive Dojo implementation for off-the-shelf widgets and custom form widgets, dynamic content display widgets</li>
+<li>Extensive cross browser compatibility testing</li>
+<li>SEO and Google Search integration</li>
+</ul>
+</div>
+</article>
+
+<article id="ypaa" class="skills">
+<div class="temp">
+<h5><a class="proj_link external" rel="http://www.sopypaa.org/">Bay Area Young People in AA</a></h5>
+<p>
+Organizational needs<br/><br/>
+
+Simple to view website that is mobile friendly and displays as much information as possible with a single page load.  Custom CMS features that are easy to learn and use for an organization with frequent turnover.
+<br /><br />
+Implementations
+</p>
+<ul>
+<li>PHP / Cake PHP framework configuration and custom extensions for MVC server-side logic</li>
+<li>MySQL configuration as attached datastore for above</li>
+<li>jQuery implementation for DHTML, AJAX form submits, content scrolling and overlay</li>
+</ul>
+</div>
+</article>
+
+<article id="notice" class="skills">
+<div class="temp">
+<h5>Notice to 3rd Party Recruiters</h5>
+<p>
+Dear Unsolicited Recruiters:
+<br/><br/>
+I am happy to work with those representing legitimate companies at fair rates.  
+<ol>
+<li>I do not deal with off-shore companies under any circumstances. You will be marked as spam.</li>
+<li>I only consider opportunities local to my current address- Jersey City, NJ.  Send me an out of state listing. I mark you as spam.</li>
+<li>Send a DETAILED JOB DESCRIPTION in the FIRST email including the EXACT CITY where the organization is located.  I do not respond to emails where you only state in your opinion that you have a great job opportunity and want to chat further.  It&rsquo;s a waste of my time and I mark you as a spammer. </li>
+<li>The job listing better be REAL. If it is not, you are marked as spam.</li>
+<li>DO NOT claim to represent a company unless you have done previous business with them- meaning you have successfully placed other candidates there, and DO NOT claim to be representing me to any organization unless all the terms in this list are agreed to and abided by.  I will make an extra effort to notify the principle organization of your fraudulent efforts.</li>
+<li>If you send me a listing, and I respond with interest, if I don't hear back from you, I mark you as spam.</li>
+<li>If you have a &quot;fast growing start-up&quot; I am not interested unless it is for an hourly contract rate.  I have ended up working for free too many times, and I will not do it again. Again, you are marked as spam.</li>
+<li>I will however, consider being part of an initial founding start-up team if the idea is clearly viable. I perform due diligence. Be prepared to provide the necessary information.</li>
+<li>I will not provide reference contact information until interviews have been conducted with the hiring manager AND interest from both sides has been expressed.</li>
+<li>I require a phone screen with the hiring manager before I will agree to an on-site interview.</li>
+<li>I will not spend more than 5 minutes creating special presentations, filling out questionnaires or taking tests.</li>
+</ol>
+</div>
+</article>
+
+</section>
+
+<div id="body_popup">
+<a class="close">[X] Close</a>
+</div>
+
+</div>
 </body>
-
-Irtaza Ali	
-100 Prospect St Jersey City, NJ 
-ira5@njit.edu
-
-Summary:
-Would want to work in a company that would allow me to use my computer science skills
-Computer Skills
-	
-Languages:
-Java, C++, C sharp, C Lang, and Python
-	
-Experience:
-None	
-	
-Education:
-2009-2012	HS Degree, William. L. Dickinson HS
-2012-2014	Associates Degree,  Hudson County Community College
-
 </html>
