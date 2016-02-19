@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="verify-v1" content="91yIG+EaOdwKuPX+R9ChHEWVXJ6wdQsq0gqD1c1sbaY="/>
-<title>David Shapiro, Resume- Web Developer</title>
+<title>Irtaza Ali, Resume- Computer Science</title>
 <style type="text/css">
 body{font-family:Geneva, Arial, Helvetica, sans-serif;font-size:12px;font-weight:normal;color:#000000;text-align:center;margin:0;padding:0;line-height:1.5em;}
 header, section, article{display:block;}
@@ -126,9 +126,8 @@ body{font-size:18px;}
 
 <header>
 <h1>David Shapiro</h1>
-<p><a href="mailto:resume@david-shapiro.net">resume@david-shapiro.net</a></p>
-<p><a href="http://www.linkedin.com/in/dgshapiro">http://www.linkedin.com/in/dgshapiro</a></p>
-<p><a href="https://github.com/dgs700/">https://github.com/dgs700</a></p>
+<p><a href="mailto:ira5@njit.edu</a></p>
+<p><a href="https://github.com/IrtazaAli1/">https://github.com/IrtazaAli1</a></p>
 
 <p><strong>Web Developer Resume &amp; Portfolio</strong></p>
 <p><em><a rel="#notice" class="proj_link notice">Notice to 3rd Party Recruiters (Please Read)</a></em></p>
@@ -142,8 +141,7 @@ body{font-size:18px;}
 <section>
 <h2>Summary</h2>
 <p>in front &amp; backend web development, database design, integration, 
-implementation, software development, network and 
-systems administration, project and account management. Significant experience in SAAS, and Non-profit sectors.</p>
+implementation, software development, network</p>
 </section>
 
 <section>
@@ -182,74 +180,12 @@ systems administration, project and account management. Significant experience i
 </ul>
 </article>
 
-<article class="project">
-  <a class="proj_link external" rel="http://www.the-river.org">
-  <strong>The River Church Community</strong></a> 
-  <strong class="indent">Web Developer - Pro Bono</strong>
-  <em class="indent">2002 - 2003</em>
-<ul>
-<li>Web forms and custom content management</li>
-<li>HTML, CSS, Java, JSP, JDBC</li>
-</ul>
-</article>
-</section>
-
-<section id="clients">
-<h2>Selected Corporate Client List <em style="font-size:12px;font-weight:normal;">(1996 - 2002)</em></h2>
-
-<p><a class="proj_link external" rel="http://www.netsuite.com"><strong>Netsuite, Inc.</strong></a>
-<span class="indent">Senior Webserver Administrator</span></p>
-
-<p><a class="proj_link external" rel="http://www.narus.com"><strong>Narus, Inc.</strong></a>
-<span class="indent">Senior System &amp; Network Administrator</span></p>
-
-<p><a class="proj_link external" rel="http://www.quova.com"><strong>Quova, Inc.</strong></a>
-<span class="indent">Senior System &amp; Network Administrator</span></p>
-
-<p><a class="proj_link external" rel="http://www.cyberstars.com/psvc/enter.html"><strong>Philips Silicon Valley Center</strong></a>
-<span class="indent">Network Engineer</span></p>
-
-<p><a class="proj_link external" rel="http://www.sun.com"><strong>Sun Microsystems (Oracle)</strong></a>
-<span class="indent">System Administrator</span></p>
-
-<p><a class="proj_link external" rel="http://www.home.agilent.com"><strong>Agilent Technologies</strong></a>
-<span class="indent">Web Developer</span></p>
-
-<p><a class="proj_link external" rel="http://netscape.aol.com/"><strong>Netscape Communications (AOL)</strong></a>
-<span class="indent">System Administrator</span></p>
-
-<p><a class="proj_link external" rel="http://go.com/"><strong>Infoseek (Go.com)</strong></a>
-<span class="indent">Software Developer</span></p>
-
-<p><a class="proj_link external" rel="http://www-306.ibm.com/software/data/informix/"><strong>Informix Software (IBM)</strong></a>
-<span class="indent">System Administrator</span></p>
-</section>
-
 <section>
 <h2>Education</h2>
 <p><strong>William. L. Dickinson HS</strong>, ComputerScience</p>
 <p><strong>Hudson County Community College College</strong>, Computer Science, 3.0 GPA</p>
 
-</section>
-<br/><br/>
-<!--<p>
-    <a href="http://validator.w3.org/check?uri=referer" style="border-bottom:none;"><img
-        src="http://www.w3.org/Icons/valid-xhtml10-blue"
-        alt="Valid XHTML 1.0 Strict" height="31" width="88" style="border:none;" /></a>
-<a href="http://jigsaw.w3.org/css-validator/check?uri=referer" style="border-bottom:none;">
-    <img style="border:none;width:88px;height:31px"
-        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-        alt="Valid CSS!" />
-</a>
-</p>
--->
-<section style="margin-top:100px;">
-<h2>Project Details</h2>
 
-<article id="bgc" class="skills">
-<div class="temp">
-Organizational needs<br/><br/>
-Transform design mockups into client side code that is cross-browser compatible, and adheres to Web 2.0 standards and industry best practices.  Implement ease-of-use client behaviors and navigation with unobtrusive Javascript and jQuery.  Provide custom content management and information capture for fund-raising events, donors, members, and community. Ensure that all code is I18N ready for plans to add Spanish and Chinese languages. Ensure that all forms and data are secure with SSL and data sanitization.
 <br/><br/>
 Implementations
 </p>
