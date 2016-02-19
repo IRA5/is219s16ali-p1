@@ -125,9 +125,9 @@ body{font-size:18px;}
 <div id="resumecontainer">
 
 <header>
-<h1>David Shapiro</h1>
+<h1>Irtaza Ali</h1>
 <p><a href="mailto:ira5@njit.edu</a></p>
-<p><a href="https://github.com/IrtazaAli1/">https://github.com/IrtazaAli1</a></p>
+<p><a href="https://github.com/IrtazaALI1/">https://github.com/IrtazaALI1</a></p>
 
 <p><strong>Web Developer Resume &amp; Portfolio</strong></p>
 <p><em><a rel="#notice" class="proj_link notice">Notice to 3rd Party Recruiters (Please Read)</a></em></p>
