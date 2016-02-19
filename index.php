@@ -149,6 +149,35 @@ implementation, software development, network</p>
 <p><strong>William. L. Dickinson HS</strong>, ComputerScience</p>
 <p><strong>Hudson County Community College College</strong>, Computer Science, 3.0 GPA</p>
 
+<h5>Notice to 3rd Party Recruiters</h5>
+<p>
+Dear Unsolicited Recruiters:
+<br/><br/>
+I am happy to work with those representing legitimate companies at fair rates.  Unfortunately, there are too many unscrupulous clowns out there trying to make a quick buck that are disrespectful of my time. So I have adopted a set of non-negotiable policies for dealing with 3rd party entities.  If you are able to respect and abide by ALL of my policies then great, perhaps we can work together, and if not, PLEASE MOVE ON.
+</p>
+<ol>
+<li>I do not deal with off-shore companies under any circumstances. You will be marked as spam.</li>
+<li>I only consider opportunities local to my current address- San Francisco, SF Peninsula, or San Jose.  Send me an out of state listing. I mark you as spam.</li>
+<li>Send a DETAILED JOB DESCRIPTION in the FIRST email including the EXACT CITY where the organization is located.  I do not respond to emails where you only state in your opinion that you have a great job opportunity and want to chat further.  It&rsquo;s a waste of my time and I mark you as a spammer. </li>
+<li>The job listing better be REAL. If it is not, you are marked as spam.</li>
+<li>DO NOT claim to represent a company unless you have done previous business with them- meaning you have successfully placed other candidates there, and DO NOT claim to be representing me to any organization unless all the terms in this list are agreed to and abided by.  I will make an extra effort to notify the principle organization of your fraudulent efforts.</li>
+<li>If you send me a listing, and I respond with interest, if I don't hear back from you, I mark you as spam.</li>
+<li>If you have a &quot;fast growing start-up&quot; I am not interested unless it is for an hourly contract rate.  I have ended up working for free too many times, and I will not do it again. Again, you are marked as spam.</li>
+<li>I will however, consider being part of an initial founding start-up team if the idea is clearly viable. I perform due diligence. Be prepared to provide the necessary information.</li>
+<li>I will not provide reference contact information until interviews have been conducted with the hiring manager AND interest from both sides has been expressed.</li>
+<li>I require a phone screen with the hiring manager before I will agree to an on-site interview.</li>
+<li>I will not spend more than 5 minutes creating special presentations, filling out questionnaires or taking tests.</li>
+</ol>
+</div>
+</article>
+
+</section>
+
+<div id="body_popup">
+<a class="close">[X] Close</a>
+</div>
+
+
 </div>
 </body>
 </html>
