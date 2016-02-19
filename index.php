@@ -135,7 +135,7 @@ body{font-size:18px;}
 
 <section>
 <h2>Objective</h2>
-<p>Seeking challenging opportunities in <em><strong>front-end web development / UI architecture</strong></em> within a 25 statute mile radius of Mountain View, CA 94043.</p>
+<p>Seeking challenging opportunities in <em><strong>Computer Science / Information Technology</strong></em> within a 25 statute mile radius of Jersey City, NJ, 07307.</p>
 </section>
 
 <section>
