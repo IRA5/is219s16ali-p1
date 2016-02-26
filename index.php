@@ -93,9 +93,6 @@
 			<div class="row services">
 				<div class="col-md-4">
 					<div class="service">
-						<div class="icon-holder">
-							<img src="img/icons/heart-blue.png" alt="" class="icon">
-						</div>
 						<h4 class="heading">NJIT</h4>
 						<p class="description">I choose NJIT as my college, because I think this will be a good college to get my bachelors degree in computer science from..</p>
 					</div>
