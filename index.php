@@ -142,7 +142,7 @@
 				<div class="col-md-4">
 					<div class="team text-center">
 						
-						<img src="img/team/team1.jpg" alt="Team Image" class="avatar">
+						
 						<div class="title">
 							<h4>Staples</h4>
 							<h5 class="muted regular">Mobile Sales Person</h5>
