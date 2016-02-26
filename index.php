@@ -87,8 +87,8 @@
 	<section id="services" class="section section-padded">
 		<div class="container">
 			<div class="row text-center title">
-				<h2>Services</h2>
-				<h4 class="light muted">Achieve the best results with our wide variety of training options!</h4>
+				<h2>Irtaza</h2>
+				<h4 class="light muted">Test test test</h4>
 			</div>
 			<div class="row services">
 				<div class="col-md-4">
