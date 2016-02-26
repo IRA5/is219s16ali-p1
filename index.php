@@ -160,7 +160,6 @@
 		<div class="container">
 			<div class="row title text-center">
 				<h2 class="margin-top white">Contact Information</h2>
-				<h4 class="light white">Hello</h4>
 			</div>
 			<div class="row no-margin">
 				<div class="col-md-7 no-padding col-md-offset-5 pricings text-center">
@@ -171,91 +170,15 @@
 							<i class="info-icon icon_question"></i>
 						</div>
 						<div class="box-second active">
-							<ul class="white-list text-left">
-								<li>One Personal Trainer</li>
-								<li>Big gym space for training</li>
-								<li>Free tools &amp; props</li>
-								<li>Free locker</li>
-								<li>Free before / after shower</li>
-							</ul>
+							
 						</div>
 					</div>
-					<div class="pricing">
-						<div class="box-main" data-img="img/pricing2.jpg">
-							<h4 class="white">Cardio Training</h4>
-							<h4 class="white regular light">$100.00 <span class="small-font">/ year</span></h4>
-							<a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-white-fill">Sign Up Now</a>
-							<i class="info-icon icon_question"></i>
-						</div>
-						<div class="box-second">
-							<ul class="white-list text-left">
-								<li>One Personal Trainer</li>
-								<li>Big gym space for training</li>
-								<li>Free tools &amp; props</li>
-								<li>Free locker</li>
-								<li>Free before / after shower</li>
-							</ul>
-						</div>
-					</div>
+					
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="section section-padded blue-bg">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<div class="owl-twitter owl-carousel">
-						<div class="item text-center">
-							<i class="icon fa fa-twitter"></i>
-							<h4 class="white light">To enjoy the glow of good health, you must exercise.</h4>
-							<h4 class="light-white light">#health #training #exercise</h4>
-						</div>
-						<div class="item text-center">
-							<i class="icon fa fa-twitter"></i>
-							<h4 class="white light">To enjoy the glow of good health, you must exercise.</h4>
-							<h4 class="light-white light">#health #training #exercise</h4>
-						</div>
-						<div class="item text-center">
-							<i class="icon fa fa-twitter"></i>
-							<h4 class="white light">To enjoy the glow of good health, you must exercise.</h4>
-							<h4 class="light-white light">#health #training #exercise</h4>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content modal-popup">
-				<a href="#" class="close-link"><i class="icon_close_alt2"></i></a>
-				<h3 class="white">Sign Up</h3>
-				<form action="" class="popup-form">
-					<input type="text" class="form-control form-white" placeholder="Full Name">
-					<input type="text" class="form-control form-white" placeholder="Email Address">
-					<div class="dropdown">
-						<button id="dLabel" class="form-control form-white dropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Pricing Plan
-						</button>
-						<ul class="dropdown-menu animated fadeIn" role="menu" aria-labelledby="dLabel">
-							<li class="animated lightSpeedIn"><a href="#">1 month membership ($150)</a></li>
-							<li class="animated lightSpeedIn"><a href="#">3 month membership ($350)</a></li>
-							<li class="animated lightSpeedIn"><a href="#">1 year membership ($1000)</a></li>
-							<li class="animated lightSpeedIn"><a href="#">Free trial class</a></li>
-						</ul>
-					</div>
-					<div class="checkbox-holder text-left">
-						<div class="checkbox">
-							<input type="checkbox" value="None" id="squaredOne" name="check" />
-							<label for="squaredOne"><span>I Agree to the <strong>Terms &amp; Conditions</strong></span></label>
-						</div>
-					</div>
-					<button type="submit" class="btn btn-submit">Submit</button>
-				</form>
-			</div>
-		</div>
-	</div>
+
 	<footer>
 		<div class="container">
 			<div class="row">
