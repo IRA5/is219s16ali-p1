@@ -101,7 +101,7 @@
 				<div class="col-md-4">
 					<div class="service">
 						<h4 class="heading">WILLIAM L. DICKINSON HS</h4>
-						<p class="description">This was the HS I attended for Computer Science.</p>
+						<p class="description">This was the HS I attended for Computer Science to get a HS degree.</p>
 					</div>
 				</div>
 				<div class="col-md-4">
