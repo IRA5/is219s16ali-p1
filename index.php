@@ -166,7 +166,7 @@
 					<div class="pricing">
 						<div class="box-main active" data-img="img/pricing1.jpg">
 							<h4 class="white">Email</h4>
-							<h4 class="white regular light">ira5@njit.edu <span class="small-font">/ year</span></h4>
+							<h4 class="white regular light">ira5@njit.edu <span class="small-font">/</span></h4>
 							<i class="info-icon icon_question"></i>
 						</div>
 						<div class="box-second active">
