@@ -53,7 +53,6 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right main-nav">
-					<li><a href="#intro">Intro</a></li>
 					<li><a href="#services">Education</a></li>
 					<li><a href="#team">Work Experience</a></li>
 					<li><a href="#pricing">Contact Information</a></li>
@@ -61,14 +60,16 @@
 			</div>
 			<!-- /.navbar-collapse -->
 		</div>
-		<!-- /.container-fluid -->
+			<!-- /.container-fluid -->
 	</nav>
 	<header id="intro">
-		<div class="Education">
-			<div class="Interest">
-				<div class="Work-Experience">
-					<div class="Contact Information">
+		<div class="container">
+			<div class="table">
+				<div class="header-text">
+					<div class="row">
 						<div class="col-md-12 text-center">
+							<h3 class="light white">Take care of your body.</h3>
+							<h1 class="white typed">It's the only place you have to live.</h1>
 							<span class="typed-cursor">|</span>
 						</div>
 					</div>
@@ -86,7 +87,7 @@
 	<section id="services" class="section section-padded">
 		<div class="container">
 			<div class="row text-center title">
-				<h2>Irtaza</h2>
+				<h2>Irtaza Ali</h2>
 				<h4 class="light muted">Education</h4>
 			</div>
 			<div class="row services">
@@ -166,7 +167,7 @@
 					<div class="pricing">
 						<div class="box-main active" data-img="img/pricing1.jpg">
 							<h4 class="white">Email</h4>
-							<h4 class="white regular light">ira5@njit.edu <span class="small-font">/</span></h4>
+							<h4 class="white regular light">ira5@njit.edu <span class="small-font"></span></h4>
 							<i class="info-icon icon_question"></i>
 						</div>
 						<div class="box-second active">
