@@ -125,8 +125,8 @@
 	<section id="team" class="section gray-bg">
 		<div class="container">
 			<div class="row title text-center">
-				<h2 class="margin-top">Team</h2>
-				<h4 class="light muted">We're a dream team!</h4>
+				<h2 class="margin-top">Work Experience</h2>
+				<h4 class="light muted">Were did you work</h4>
 			</div>
 			<div class="row">
 				<div class="col-md-4">
@@ -139,8 +139,8 @@
 						</div>
 						<img src="img/team/team3.jpg" alt="Team Image" class="avatar">
 						<div class="title">
-							<h4>Ben Adamson</h4>
-							<h5 class="muted regular">Fitness Instructor</h5>
+							<h4>GOOGLE</h4>
+							<h5 class="muted regular">TECH Company</h5>
 						</div>
 						<button data-toggle="modal" data-target="#modal1" class="btn btn-blue-fill">Sign Up Now</button>
 					</div>
@@ -155,8 +155,8 @@
 						</div>
 						<img src="img/team/team1.jpg" alt="Team Image" class="avatar">
 						<div class="title">
-							<h4>Eva Williams</h4>
-							<h5 class="muted regular">Personal Trainer</h5>
+							<h4>Staples</h4>
+							<h5 class="muted regular">Mobile Sales Person</h5>
 						</div>
 						<a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-blue-fill ripple">Sign Up Now</a>
 					</div>
@@ -171,8 +171,8 @@
 						</div>
 						<img src="img/team/team2.jpg" alt="Team Image" class="avatar">
 						<div class="title">
-							<h4>John Phillips</h4>
-							<h5 class="muted regular">Personal Trainer</h5>
+							<h4>Best Buy</h4>
+							<h5 class="muted regular">Sales Person</h5>
 						</div>
 						<a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-blue-fill ripple">Sign Up Now</a>
 					</div>
