@@ -57,7 +57,6 @@
 					<li><a href="#services">Education</a></li>
 					<li><a href="#team">Work Experience</a></li>
 					<li><a href="#pricing">Contact Information</a></li>
-					<li><a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-blue">Sign Up</a></li>
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->
@@ -161,15 +160,14 @@
 		<div class="container">
 			<div class="row title text-center">
 				<h2 class="margin-top white">Contact Information</h2>
-				<h4 class="light white">Choose your favorite pricing plan and sign up today!</h4>
+				<h4 class="light white">Hello</h4>
 			</div>
 			<div class="row no-margin">
 				<div class="col-md-7 no-padding col-md-offset-5 pricings text-center">
 					<div class="pricing">
 						<div class="box-main active" data-img="img/pricing1.jpg">
-							<h4 class="white">Yoga Pilates</h4>
-							<h4 class="white regular light">$850.00 <span class="small-font">/ year</span></h4>
-							<a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-white-fill">Sign Up Now</a>
+							<h4 class="white">Email</h4>
+							<h4 class="white regular light">ira5@njit.edu <span class="small-font">/ year</span></h4>
 							<i class="info-icon icon_question"></i>
 						</div>
 						<div class="box-second active">
