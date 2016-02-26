@@ -88,7 +88,7 @@
 		<div class="container">
 			<div class="row text-center title">
 				<h2>Irtaza</h2>
-				<h4 class="light muted">Test test test</h4>
+				<h4 class="light muted">Education</h4>
 			</div>
 			<div class="row services">
 				<div class="col-md-4">
@@ -96,8 +96,8 @@
 						<div class="icon-holder">
 							<img src="img/icons/heart-blue.png" alt="" class="icon">
 						</div>
-						<h4 class="heading">Cardio Training</h4>
-						<p class="description">A elementum ligula lacus ac quam ultrices a scelerisque praesent vel suspendisse scelerisque a aenean hac montes.</p>
+						<h4 class="heading">NJIT</h4>
+						<p class="description">I choose NJIT as my college, because I think this will be a good college to get my bachelors degree in computer science from..</p>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -105,8 +105,8 @@
 						<div class="icon-holder">
 							<img src="img/icons/guru-blue.png" alt="" class="icon">
 						</div>
-						<h4 class="heading">Yoga Pilates</h4>
-						<p class="description">A elementum ligula lacus ac quam ultrices a scelerisque praesent vel suspendisse scelerisque a aenean hac montes.</p>
+						<h4 class="heading">WILLIAM. L. DICKINSON HS</h4>
+						<p class="description">This was the HS I attended for Computer Science.</p>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -114,8 +114,8 @@
 						<div class="icon-holder">
 							<img src="img/icons/weight-blue.png" alt="" class="icon">
 						</div>
-						<h4 class="heading">Power Training</h4>
-						<p class="description">A elementum ligula lacus ac quam ultrices a scelerisque praesent vel suspendisse scelerisque a aenean hac montes.</p>
+						<h4 class="heading">HUDSON COUNTY COMMUNITY COLLEGE</h4>
+						<p class="description">I attended this Community College to get a Associate Degree.</p>
 					</div>
 				</div>
 			</div>
