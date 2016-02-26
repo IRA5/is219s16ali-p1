@@ -53,6 +53,7 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right main-nav">
+					<li><a href="Intro">Intro</a></li>
 					<li><a href="#services">Education</a></li>
 					<li><a href="#team">Work Experience</a></li>
 					<li><a href="#pricing">Contact Information</a></li>
@@ -69,7 +70,7 @@
 					<div class="row">
 						<div class="col-md-12 text-center">
 							<h3 class="light white">Irtaza Ali.</h3>
-							<h1 class="white typed">IS 219102, Professor Michael Lee.</h1>
+							<h1 class="white typed">IS 219102.</h1>
 							<span class="typed-cursor">|</span>
 						</div>
 					</div>
