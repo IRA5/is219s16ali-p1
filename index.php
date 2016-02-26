@@ -165,7 +165,7 @@
 	<section id="pricing" class="section">
 		<div class="container">
 			<div class="row title text-center">
-				<h2 class="margin-top white">Pricing</h2>
+				<h2 class="margin-top white">Contact Information</h2>
 				<h4 class="light white">Choose your favorite pricing plan and sign up today!</h4>
 			</div>
 			<div class="row no-margin">
@@ -266,24 +266,6 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-6 text-center-mobile">
-					<h3 class="white">Reserve a Free Trial Class!</h3>
-					<h5 class="light regular light-white">Shape your body and improve your health.</h5>
-					<a href="#" class="btn btn-blue ripple trial-button">Start Free Trial</a>
-				</div>
-				<div class="col-sm-6 text-center-mobile">
-					<h3 class="white">Opening Hours <span class="open-blink"></span></h3>
-					<div class="row opening-hours">
-						<div class="col-sm-6 text-center-mobile">
-							<h5 class="light-white light">Mon - Fri</h5>
-							<h3 class="regular white">9:00 - 22:00</h3>
-						</div>
-						<div class="col-sm-6 text-center-mobile">
-							<h5 class="light-white light">Sat - Sun</h5>
-							<h3 class="regular white">10:00 - 18:00</h3>
-						</div>
-					</div>
-				</div>
 			</div>
 			<div class="row bottom-footer text-center-mobile">
 				<div class="col-sm-8">
